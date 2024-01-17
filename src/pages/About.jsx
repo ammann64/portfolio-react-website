@@ -1,7 +1,7 @@
 export default function About() {
     return (
         <div>
-            <img src="../assets/img/austin-photo.jpg" alt="A photo of me, Austin, smiling."></img>
+            <img className="img-fluid" src="/assets/img/austin-photo.jpg" alt="A photo of me, Austin, smiling."></img>
             <div>
                 <h2>About Me</h2>
                 <p>
