@@ -1,4 +1,11 @@
 :root {
+    --platinum: #e0e0e2ff;
+    --onyx: #36393B;
+    --french-gray: #b5bad0ff;
+    --glaucous: #7389aeff;
+    --lapis-lazuli: #416788ff;
+    --border-style: .1rem solid var(--onyx);
+    
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
@@ -11,9 +18,42 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
-  }
-
+}
 
 .card {
     margin: 1rem
+}
+
+#about-me-title {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.page-title {
+    background-color: var(--glaucous);
+    border-bottom: var(--border-style);
+}
+
+header, footer {
+    background-color: var(--french-gray);
+    border: var(--border-style)
+}
+
+.nav-items, .title {
+    color: var(--onyx)
+}
+
+main {
+    background-color: var(--french-gray);
+    border: var(--border-style);
+}
+
+body {
+    background-color: var(--platinum);
+}
+
+.card{
+    background-color: var(--glaucous);
+    border: var(--border-style);
 }

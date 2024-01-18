@@ -3,13 +3,15 @@ import projects from "../projects";
 
 export default function Portfolio() {
     return (
-        <div className="container-fluid">
-            <div className="row">
-                <h1 className="col align-self-center mb-4">Portfolio</h1>
+        <div className="container-fluid" id="portfolio">
+            <div className="row page-title title">
+                <h2 className="col align-self-center mb-4">Portfolio</h2>
             </div>
-            <div className="card-columns row justify-content-around">
+            <div className="card-columns row justify-content-around page-body">
                 {projects.map((project) => 
-                    <Project project={projects[project.id]}/>
+                    <div className="card col-4" key={project.id}>
+                        <Project project={projects[project.id]}/>
+                    </div>
                 )}
             </div>
         </div>
