@@ -8,3 +8,6 @@ Resume and contact sections still need to be completed
 
 ## Screenshot
 ![A screenshot of the portfolio website](./public/assets/img/portfolio-screenshot.png)
+
+## Deployed Application Link
+https://portfolio-website-376847.netlify.app/
