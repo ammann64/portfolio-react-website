@@ -27,7 +27,6 @@ function Contact() {
         const inputValue = target.value;
 
         if (!inputValue) {
-            setErrorMessage(`Please enter a(n) ${inputType}.`);
         }
     };
 
