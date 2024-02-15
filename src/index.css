@@ -53,7 +53,16 @@ body {
     background-color: var(--platinum);
 }
 
-.card{
+.card {
     background-color: var(--glaucous);
     border: var(--border-style);
+}
+
+.card h3 {
+    font-size: 1rem;
+    text-wrap: wrap;
+}
+
+.proficiencies {
+    list-style-type: circle;
 }

@@ -4,10 +4,10 @@ export default function Project({ project }) {
 
     return (
         <>
-            <img src={project.image} alt={project.altText} className="card-img-top img-fluid"/>
-            <div className="card-body text-primary">
-                <a href={project.deployed}><h2 className="card-title">{project.name}</h2></a>
-                <a href={project.github}><img src={githubLogo}/></a>
+            <img src={project.image} alt={project.altText} className="card-img-top align-self-center img-fluid row"/>
+            <div className="card-body text-primary row">
+                <a href={project.deployed}><h3 className="card-title mb-2">{project.name}</h3></a>
+                <a href={project.github}><img className="img-fluid" src={githubLogo}/></a>
             </div>
         </>
     )

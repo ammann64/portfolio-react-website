@@ -2,8 +2,8 @@ export default function About() {
     return (
         <div id="about-me" className="container">
             <div id="about-me-title" className="row justify-content-center page-title title">
-                <img className="img-fluid col-1" src="/assets/img/austin-photo.jpg" alt="A photo of me, Austin, smiling."></img>
-                <h2 className="col-3">About Me</h2>
+                <img className="img-fluid col-2" src="/assets/img/austin-photo.jpg" alt="A photo of me, Austin, smiling."></img>
+                <h2 className="col-8">About Me</h2>
             </div>
             <div className="row page-body">
                 <p>
