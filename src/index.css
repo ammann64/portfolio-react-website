@@ -20,19 +20,8 @@
     -webkit-text-size-adjust: 100%;
 }
 
-.card {
-    margin: 1rem
-}
-
-#about-me-title {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
-    align-items: center;
-}
-
-.page-title {
-    background-color: var(--glaucous);
-    border-bottom: var(--border-style);
+.text {
+    color: var(--onyx);
 }
 
 header, footer {
@@ -40,7 +29,7 @@ header, footer {
     border: var(--border-style)
 }
 
-.nav-items, .title {
+.nav-items {
     color: var(--onyx)
 }
 
@@ -49,20 +38,24 @@ main {
     border: var(--border-style);
 }
 
+.page-title {
+    background-color: var(--glaucous);
+    border-bottom: var(--border-style);
+    color: var(--onyx);
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
 body {
     background-color: var(--platinum);
 }
 
-.card {
-    background-color: var(--glaucous);
-    border: var(--border-style);
-}
-
-.card h3 {
-    font-size: 1rem;
-    text-wrap: wrap;
+.download-link {
+    color: var(--glaucous);
 }
 
 .proficiencies {
-    list-style-type: circle;
+    background-color: var(--onyx);
+    color: var(--platinum);
 }

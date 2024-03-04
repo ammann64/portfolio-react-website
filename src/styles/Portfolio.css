@@ -1,0 +1,11 @@
+.card {
+    margin: 1rem;
+    background-color: var(--glaucous);
+    border: var(--border-style);
+    font-size: 2vw;
+}
+
+.card h3 {
+    font-size: 1rem;
+    text-wrap: wrap;
+}

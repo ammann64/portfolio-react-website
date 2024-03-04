@@ -3,9 +3,9 @@ import projects from "../projects";
 
 export default function Portfolio() {
     return (
-        <div className="container-fluid" id="portfolio">
+        <div className="container-fluid">
             <div className="row page-title">
-                <h2 className="col align-self-center mb-4">Portfolio</h2>
+                <h2 className="col align-self-center mb-4 text">Portfolio</h2>
             </div>
             <div className="card-columns row justify-content-around page-body">
                 {projects.map((project) => 

@@ -44,9 +44,11 @@ function Contact() {
     };
 
     return (
-        <div>
-            <h2 className="page-title title">Contact me!</h2>
-            <form className='form' onSubmit={handleSubmit}>
+        <div className='container-fluid'>
+            <div className="row page-title">
+                <h2 className="col align-self-center text">Contact Me</h2>
+            </div>
+            <form className='row form' onSubmit={handleSubmit}>
                 <input
                   value={name}
                   name='name'
