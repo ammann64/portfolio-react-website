@@ -20,6 +20,22 @@
     -webkit-text-size-adjust: 100%;
 }
 
+.card-title {
+    font-size: 3px;
+}
+
+@media screen and (min-width: 361px) {
+    .card-title {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 791px) {
+    .card-title {
+        font-size: 16px;
+    }
+}
+
 .text {
     color: var(--onyx);
 }
